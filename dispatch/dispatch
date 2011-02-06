@@ -1,0 +1,5 @@
+[
+    { term_feed_search, 	["term", "search" ], 		resource_term_feed_search, [] },
+    { term_feed, 			["term", cat], 				resource_term_feed_cat, [] },
+    { term_feed_upcoming, 	["term", "upcoming", cat],	resource_term_feed_cat, [{upcoming, true}] }
+].

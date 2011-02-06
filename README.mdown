@@ -1,0 +1,19 @@
+Zotonic External Term feeds
+===========================
+This module provides resource data in [external term format](http://www.erlang.org/doc/apps/erts/erl_ext_dist.html) using a RESTful interface identical to `mod_atom_feeds`.
+
+Example Usage
+-------------
+This can be run from an EShell assuming `play` is available in `/etc/hosts` or your DNS:
+
+	f(Body), f(Resources),
+	{ok, {{_,_,_}, _, Body}} = httpc:request(get, {"http://play:8000/term/article", []}, [], [{body_format, binary}]),
+	{ok, Resources} = binary_to_term(Body).
+
+`Resources` should be a proplist of form `[{Id, RscProps}, {Id1, RscProps1}, ...]`.
+
+Similarly, you can search for articles with `Zotonic` in their fulltext through the search interface:
+
+	f(Body), f(Resources),
+	{ok, {{_,_,_}, _, Body}} = httpc:request(get, {"http://play:8000/term/search?cat=article&text=Zotonic", []}, [], [{body_format, binary}]),
+	{ok, Resources} = binary_to_term(Body).
