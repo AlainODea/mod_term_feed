@@ -1,10 +1,7 @@
 %% @author Alain O'Dea <alain.odea@gmail.com>
-%% @copyright 2011 Alain O'Dea
 %% @date 2011-02-06
 %% @doc Adds support for external term feed generation.
 
-%% Copyright 2011 Alain O'Dea
-%%
 %% Licensed under the Apache License, Version 2.0 (the "License");
 %% you may not use this file except in compliance with the License.
 %% You may obtain a copy of the License at

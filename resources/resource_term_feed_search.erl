@@ -1,11 +1,8 @@
 %% @author Alain O'Dea <alain.odea@gmail.com>
-%% @copyright 2011 Alain O'Dea
 %% @date 2011-02-06
 %% @doc Search the external term feeds.
 %% Largely copied from Arjan Scherpenisse's resource_atom_feed_search.erl
 
-%% Copyright 2011 Alain O'Dea
-%%
 %% Licensed under the Apache License, Version 2.0 (the "License");
 %% you may not use this file except in compliance with the License.
 %% You may obtain a copy of the License at

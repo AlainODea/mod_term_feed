@@ -1,13 +1,10 @@
 %% @author Alain O'Dea <alain.odea@gmail.com>
-%% @copyright 2011 Alain O'Dea
 %% @date 2011-02-06
 %% @doc Serve an external term feed for a category.  Shows the newest created
 %% items of a certain category, always as the anonymous user.
 %% The category being served must be a name.
 %% Largely copied from Marc Worrell's resource_atom_feed_cat.erl
 
-%% Copyright 2011 Alain O'Dea
-%%
 %% Licensed under the Apache License, Version 2.0 (the "License");
 %% you may not use this file except in compliance with the License.
 %% You may obtain a copy of the License at
